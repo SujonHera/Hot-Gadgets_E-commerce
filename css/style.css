@@ -157,3 +157,51 @@ i {
      text-align: center;
      padding:20px;
 }
+.heading h2 {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.heading h2::before {
+    content: "";
+    position: absolute;
+    background-color: darkorange;
+    width: 160px;
+    height: 5px;
+    top: 40px;
+    bottom: 0;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.box {
+    border-radius: 16px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.about-style {
+    border-radius: 16px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+input,
+textarea,
+select {
+    font-size: 14px;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 0 0 15px 0;
+    max-width: 100%;
+    resize: none;
+}
