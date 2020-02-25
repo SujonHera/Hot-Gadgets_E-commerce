@@ -91,15 +91,17 @@ i {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    /* border: 1px solid rgba(0,0,0,.125); */
     border-radius: 16px;
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 95%;
+    transition: all 1s;
 }
-
+.card:hover{
+    transform: translateY(-20px);
+}
 .card-img-top {
     width: 65%;
     border-top-left-radius: calc(.25rem - 1px);
@@ -108,7 +110,16 @@ i {
     height: 200px;
     margin-top: 16px;
 }
-
+.see-all{
+    color:darkorange;
+    cursor: pointer;
+}
+.see-all:hover{
+    background-color: darkorange;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -156,6 +167,10 @@ i {
      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
      text-align: center;
      padding:20px;
+     transition: all 1s;
+}
+.box:hover{
+    transform: translateY(-20px);
 }
 .about-style{
     border-radius: 16px;
@@ -164,6 +179,10 @@ i {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding:20px;
+    transition: all 1s;
+}
+.about-style:hover {
+    transform: translateY(-20px);
 }
 input,
 textarea,
