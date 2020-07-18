@@ -7,58 +7,49 @@ html {
     scroll-behavior: smooth;
 }
 
-body {}
 
-/* header {
-    background: #e9ecefb8;
-    height: 100vh;
-} */
-
+/* Navbar Section */
 
 .navbar {
-    padding-top: 20px;
     margin-bottom: 15px;
-}
-
-.navbar-brand img {
-    height: 50px;
-    width: 100px;
-}
-
-.carousel-control-prev-icon {
-    color: black;
-}
-
-i {
-    color: black;
-}
-
-.navbar {
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
 }
-
+.navbar-brand img {
+    height: 40px;
+    width: 80px;
+}
 .carousel-indicators li {
     box-sizing: content-box;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    width: 30px;
+    width: 18px;
     height: 8px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
     border: none;
-
     background-color: darkorange;
     background-clip: padding-box;
-    opacity: .5;
+    opacity: .8;
     transition: opacity .6s ease;
     border-radius: 20px;
 }
-
+.navbar-dark .navbar-toggler{
+    color: #111 !important;
+}
+li.active {
+    width: 35px;
+}
+.nav-link{
+    color: #333 !important;
+}
+.nav-link:hover{
+    color: #fff !important;
+}
 .slider-text h2 {
     margin-bottom: 11px;
 }
@@ -67,12 +58,15 @@ i {
     margin-bottom: 25px;
 }
 
-.carousel-control-next i {}
+.carousel-control-next i , .carousel-control-prev i {
+    color: darkorange;
+}
 
 .slider-text {
     margin-left: 10px;
 }
 
+/* Product Section */
 #product-section {
     padding-top: 100px;
 }
@@ -135,7 +129,7 @@ i {
     padding-left: 18px;
 
 }
-
+/* Catagories Section */
 #catagories-section {
     padding-top: 100px;
     text-align: center;
@@ -146,7 +140,61 @@ i {
     position: relative;
 }
 
+<<<<<<< HEAD
 .heading h2::before {
+=======
+.box{
+     border-radius: 16px;
+     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     padding:20px;
+}
+.animation-1{
+    animation: zoom-in 2s ease-in-out  infinite alternate;
+}
+.animation-2{
+    animation: zoom-in 2s ease-in-out  infinite alternate-reverse;
+}
+.animation-3{
+    animation: zoom-out 2s ease-in-out  infinite alternate;
+}
+.animation-4{
+    animation: up-down 2s linear infinite alternate;
+}
+@keyframes zoom-in{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes zoom-out{
+    0%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+/* About Section */
+.heading h2 {
+    margin-bottom: 50px;
+    position: relative;
+}
+.categories h2::before {
+>>>>>>> master
     content: "";
     position: absolute;
     background-color: darkorange;
@@ -154,12 +202,12 @@ i {
     height: 5px;
     top: 40px;
     bottom: 0;
-   
     margin-top: 5px;
     border-radius: 5px;
     text-align: center;
     
 }
+<<<<<<< HEAD
 .box{
      border-radius: 16px;
      -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -173,17 +221,28 @@ i {
     transform: translateY(-20px);
 }
 .about-style{
+=======
+
+.about-style {
+>>>>>>> master
     border-radius: 16px;
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
+<<<<<<< HEAD
     padding:20px;
     transition: all 1s;
 }
 .about-style:hover {
     transform: translateY(-20px);
 }
+=======
+    padding: 20px;
+}
+
+/* Input Section */
+>>>>>>> master
 input,
 textarea,
 select {
@@ -193,4 +252,12 @@ select {
     margin: 0 0 15px 0;
     max-width: 100%;
     resize: none;
+<<<<<<< HEAD
 }
+=======
+    border: 1px solid darkorange;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+>>>>>>> master
