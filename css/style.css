@@ -186,11 +186,11 @@ li.active {
     }
 }
 /* About Section */
-.heading h2 {
+.title h2 {
     margin-bottom: 50px;
     position: relative;
 }
-.categories h2::before {
+.title h2::before {
     content: "";
     position: absolute;
     background-color: darkorange;
