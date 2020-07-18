@@ -144,19 +144,35 @@ li.active {
     animation: zoom-in 2s ease-in-out  infinite alternate-reverse;
 }
 .animation-3{
-    animation: zoom-in 2s ease-in-out  infinite reverse;
+    animation: zoom-out 2s ease-in-out  infinite alternate;
+}
+.animation-4{
+    animation: up-down 2s linear infinite alternate;
 }
 @keyframes zoom-in{
     0%{
-        transform: scale(0.7);
+        transform: scale(0.8);
     }
     100%{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
+@keyframes zoom-out{
+    0%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
 @keyframes up-down{
-    
+    0%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
 }
 /* About Section */
 .heading h2 {
