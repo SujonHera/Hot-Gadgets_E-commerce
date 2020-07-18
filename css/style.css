@@ -140,9 +140,6 @@ li.active {
     position: relative;
 }
 
-<<<<<<< HEAD
-.heading h2::before {
-=======
 .box{
      border-radius: 16px;
      -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -194,7 +191,6 @@ li.active {
     position: relative;
 }
 .categories h2::before {
->>>>>>> master
     content: "";
     position: absolute;
     background-color: darkorange;
@@ -207,42 +203,17 @@ li.active {
     text-align: center;
     
 }
-<<<<<<< HEAD
-.box{
-     border-radius: 16px;
-     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-     -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-     text-align: center;
-     padding:20px;
-     transition: all 1s;
-}
-.box:hover{
-    transform: translateY(-20px);
-}
-.about-style{
-=======
 
 .about-style {
->>>>>>> master
     border-radius: 16px;
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-<<<<<<< HEAD
-    padding:20px;
-    transition: all 1s;
-}
-.about-style:hover {
-    transform: translateY(-20px);
-}
-=======
     padding: 20px;
 }
 
 /* Input Section */
->>>>>>> master
 input,
 textarea,
 select {
@@ -252,12 +223,8 @@ select {
     margin: 0 0 15px 0;
     max-width: 100%;
     resize: none;
-<<<<<<< HEAD
-}
-=======
     border: 1px solid darkorange;
     outline: none;
     border-radius: 5px;
     margin: 10px 0px;
 }
->>>>>>> master
